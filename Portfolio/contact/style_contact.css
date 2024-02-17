@@ -1,0 +1,59 @@
+body {
+    font-family: "Caveat Brush", cursive;
+    background: #b7b7a4;
+    color: #fff;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 10%;
+    font-size: 4rem;
+}
+
+.logo img {
+    max-width: 20%;
+}
+
+.logo {
+    position: absolute;
+    width: 40%;
+    margin: 2%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.linkedin-image-button {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.linkedin-image-button img {
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+.linkedin-image-button:hover {
+    background-color: #3498db;
+    transform: scale(1.1);
+}
+
+.button-container {
+    justify-content: center;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
